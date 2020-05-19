@@ -13,7 +13,7 @@ npm run serve
 yarn install
 
 ```
-### Compiles and hot-reloads for development
+### Add the ag-Grid NPM packages
 ```
 npm install --save ag-grid-community ag-grid-vue vue-property-decorator
 ```
