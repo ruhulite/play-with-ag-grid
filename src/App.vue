@@ -5,6 +5,7 @@
       class="ag-theme-alpine"
       :columnDefs="columnDefs"
       :rowData="rowData"
+      :autoGroupColumnDefs="autoGroupColumnDefs"
       rowSelection="multiple"
     >
     </ag-grid-vue>
@@ -20,6 +21,7 @@ export default {
     return {
       columnDefs: null,
       rowData: null,
+      autoGroupColumnDefs: null,
     };
   },
   components: {
@@ -32,7 +34,8 @@ export default {
         field: 'make',
         sortable: true,
         filter: true,
-        checkboxSelection: true,
+        // checkboxSelection: true,
+        rowGroup: true,
       },
       {headerName: 'Model', field: 'model', sortable: true, filter: true},
       {headerName: 'Price', field: 'price', sortable: true, filter: true},
@@ -43,6 +46,11 @@ export default {
       {make: 'Ford', model: 'Mondeo', price: 32000},
       {make: 'Porsche', model: 'Boxter', price: 72000},
     ];
+
+    this.autoGroupColumnDefs = {
+      headerName: 'Model',
+      field: 'model',
+    }
   },
 };
 </script>
