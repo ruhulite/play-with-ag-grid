@@ -28,5 +28,12 @@ yarn serve
 yarn build
 ```
 
+### TODO
+
+```
+. Sorting And Filtering
+. Fetch Remote Data
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

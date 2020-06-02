@@ -1313,6 +1313,11 @@ ag-grid-community@^23.1.1:
   resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-23.1.1.tgz#049ebbd2b521df4b1ad54ae68d98144cf9963e07"
   integrity sha512-bWpilWkD7b19BNoycVfifAmXVZGI+s1m/G6ixx7tOcXTQEU+tA6dWiHn2kxt1iiLsixvEwi/6JQu1j9Iykrb7Q==
 
+ag-grid-enterprise@^23.1.1:
+  version "23.1.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-enterprise/-/ag-grid-enterprise-23.1.1.tgz#14b02bb4c02e62292821edc380376db1ece7f587"
+  integrity sha512-G+ATNOgEHO59671xMbAvjt7u1m6M67xy5tkQgMioJmgS2GftdQGd3GA7DzVM6YBu8ICewDfS67v5wE0c0W0xvg==
+
 ag-grid-vue@^23.1.1:
   version "23.1.1"
   resolved "https://registry.yarnpkg.com/ag-grid-vue/-/ag-grid-vue-23.1.1.tgz#95e0a9fc495b53c6472e00fce66cdc56fbd1f00d"
