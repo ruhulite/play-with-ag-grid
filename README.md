@@ -33,6 +33,8 @@ yarn build
 ```
 . Sorting And Filtering
 . Fetch Remote Data
+. Enable Selection
+. Get the selected data and Grouping
 ```
 
 ### Customize configuration
